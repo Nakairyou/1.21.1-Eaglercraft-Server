@@ -1,0 +1,116 @@
+24-11-06 09:10:19 [INFO] Logger started.
+24-11-06 09:10:19 [INFO] Logging system initialized.
+24-11-06 09:10:19 [INFO] Detected Minecraft version: 1.21.1
+24-11-06 09:11:05 [INFO] McAccess set to: 1.13-1.21|? / Bukkit-API
+24-11-06 09:11:05 [INFO] Applied block patches for multi client protocol support: water_lily, soil, vine, honey_block, shulker_box
+24-11-06 09:11:05 [INFO] Update block-info: Block shape patch for multi client protocol support.
+24-11-06 09:11:05 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+24-11-06 09:11:05 [INFO] Packet level access: ProtocolLib is not available.
+24-11-06 09:11:06 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+24-11-06 09:11:06 [INFO] Version 3.17.1-SNAPSHOT-Updated-b196 is enabled.
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.NSBukkitAttributeAccess
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+24-11-06 09:11:14 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+24-11-06 09:11:14 [INFO] Added hook: AllViolations(NCP) [1.0].
+24-11-06 09:11:14 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+24-11-06 09:11:14 [INFO] Post-enable running...
+24-11-06 09:11:14 [INFO] Post-enable finished.
+24-11-06 09:11:14 [INFO] §c§l»Version information«§7
+§6§lServer:§7
+§71.21.1-2329-803bf62 ~MC: 1.21.1~
+§7§eDetected: §71.21.1
+§6§lNoCheatPlus:§7
+§7§ePlugin: §73.17.1-SNAPSHOT-Updated-b196
+§7§eMCAccess: §71.13-1.21|? / Bukkit-API
+§6§lFeatures:
+§7§eblocks§7: BlocksMC1_4§f, §7BlocksMC1_5§f, §7BlocksMC1_6_1§f, §7BlocksMC1_7_2§f, §7BlocksMC1_8§f, §7BlocksMC1_9§f, §7BlocksMC1_10§f, §7BlocksMC1_11§f, §7BlocksMC1_12§f, §7BlocksMC1_13§f, §7BlocksMC1_14§f, §7BlocksMC1_15§f, §7BlocksMC1_16§f, §7BlocksMC1_17§f, §7BlocksMC1_19§f, §7BlocksMC1_20§f, §7MCAccessBukkitModern
+§7§echecks§7: FastConsume§f, §7Gutenberg§f, §7HotFixFallingBlockPortalEnter
+§7§edefaults§7: pvpKnockBackVelocity
+§6§lHooks:
+§7AllViolations~NCP~ 1.0§f, §7ViolationFrequency~NCP~ 1.0
+§c§l»Related Plugins«§7
+§7ViaVersion v5.1.1
+24-11-06 09:42:37 [INFO] CommanderWolffe failed SurvivalFly: tried to perform an illegal move from (133.70, 63.75, -240.64) to (133.70, 63.75, -240.64) over a distance of (0.00) blocks, subchecks triggered> (hcollision+vdistrel+ychdec+lowjump) (VL357)
+24-11-06 09:43:01 [INFO] CommanderWolffe failed SurvivalFly: tried to perform an illegal move from (133.70, 63.75, -240.43) to (133.70, 63.75, -240.43) over a distance of (0.00) blocks, subchecks triggered> (hcollision+vdistrel+ychdec+lowjump) (VL595)
+24-11-06 09:46:24 [INFO] Removed hook: ViolationFrequency(NCP) [1.0].
+24-11-06 09:46:24 [INFO] Removed hook: AllViolations(NCP) [1.0].
+24-11-06 09:46:24 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 695 (695/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 34184 (34184/0) |
+24-11-06 09:46:24 [INFO] [GenericInstanceRegistry] Registry cleared.
+24-11-06 09:48:54 [INFO] Logger started.
+24-11-06 09:48:54 [INFO] Logging system initialized.
+24-11-06 09:48:54 [INFO] Detected Minecraft version: 1.21.1
+24-11-06 09:49:31 [INFO] McAccess set to: 1.13-1.21|? / Bukkit-API
+24-11-06 09:49:31 [INFO] Applied block patches for multi client protocol support: water_lily, soil, vine, honey_block, shulker_box
+24-11-06 09:49:31 [INFO] Update block-info: Block shape patch for multi client protocol support.
+24-11-06 09:49:32 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+24-11-06 09:49:32 [INFO] Packet level access: ProtocolLib is not available.
+24-11-06 09:49:32 [INFO] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+24-11-06 09:49:32 [INFO] Version 3.17.1-SNAPSHOT-Updated-b196 is enabled.
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered (override) for itself: fr.neatmonster.nocheatplus.hooks.ExemptionSettings
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkitModern
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkitModern
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.NSBukkitAttributeAccess
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+24-11-06 09:49:39 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+24-11-06 09:49:39 [INFO] Added hook: AllViolations(NCP) [1.0].
+24-11-06 09:49:39 [INFO] Added hook: ViolationFrequency(NCP) [1.0].
+24-11-06 09:49:39 [INFO] Post-enable running...
+24-11-06 09:49:39 [INFO] Post-enable finished.
+24-11-06 09:49:39 [INFO] §c§l»Version information«§7
+§6§lServer:§7
+§71.21.1-2329-803bf62 ~MC: 1.21.1~
+§7§eDetected: §71.21.1
+§6§lNoCheatPlus:§7
+§7§ePlugin: §73.17.1-SNAPSHOT-Updated-b196
+§7§eMCAccess: §71.13-1.21|? / Bukkit-API
+§6§lFeatures:
+§7§eblocks§7: BlocksMC1_4§f, §7BlocksMC1_5§f, §7BlocksMC1_6_1§f, §7BlocksMC1_7_2§f, §7BlocksMC1_8§f, §7BlocksMC1_9§f, §7BlocksMC1_10§f, §7BlocksMC1_11§f, §7BlocksMC1_12§f, §7BlocksMC1_13§f, §7BlocksMC1_14§f, §7BlocksMC1_15§f, §7BlocksMC1_16§f, §7BlocksMC1_17§f, §7BlocksMC1_19§f, §7BlocksMC1_20§f, §7MCAccessBukkitModern
+§7§echecks§7: FastConsume§f, §7Gutenberg§f, §7HotFixFallingBlockPortalEnter
+§7§edefaults§7: pvpKnockBackVelocity
+§6§lHooks:
+§7AllViolations~NCP~ 1.0§f, §7ViolationFrequency~NCP~ 1.0
+§c§l»Related Plugins«§7
+§7ViaVersion v5.1.1
+24-11-06 13:54:29 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL410)
+24-11-06 13:54:34 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL1044)
+24-11-06 13:54:46 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL692)
+24-11-06 14:03:43 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL419)
+24-11-06 14:03:48 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL1351)
+24-11-06 14:03:53 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL2100)
+24-11-06 14:04:02 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL913)
+24-11-06 14:04:07 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL681)
+24-11-06 14:04:13 [INFO] ZIazys failed FastClick: tried to move items in their inventory too quickly (Tags: clickspeed) (VL443)
+24-11-06 17:09:09 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.92, 0.07, -67.36) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL1062)
+24-11-06 17:09:13 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.92, 0.07, -67.36) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL1262)
+24-11-06 17:09:18 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.92, 0.07, -67.36) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL1462)
+24-11-06 17:09:23 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (16.05, 0.07, -67.41) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL1662)
+24-11-06 17:09:44 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.48, -0.70, -67.30) to (15.46, -0.70, -67.30) over a distance of (0.02) blocks, subchecks triggered> (hcollision+vdistrel+ychdec) (VL1675)
+24-11-06 17:09:50 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.60, -0.93, -67.32) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL1875)
+24-11-06 17:09:55 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move from (15.50, -0.93, -67.30) to ((HOVER)) over a distance of (0.0(HOVER)) blocks, subchecks triggered> (hover) (VL2075)
+24-11-06 17:09:59 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2275)
+24-11-06 17:09:59 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:10:25 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2475)
+24-11-06 17:10:25 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:11:26 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2675)
+24-11-06 17:11:26 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:12:48 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2875)
+24-11-06 17:12:48 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:13:17 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3075)
+24-11-06 17:13:17 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:14:14 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3275)
+24-11-06 17:14:14 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+24-11-06 17:14:45 [INFO] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3475)
+24-11-06 17:14:45 [INFO] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.

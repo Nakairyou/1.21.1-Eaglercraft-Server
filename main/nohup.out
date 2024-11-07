@@ -1,0 +1,831 @@
+Running iteration 1...
+Picked up JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=95.0
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[09:48:01 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21+35-LTS; Eclipse Adoptium Temurin-21+35) on Linux 6.1.0-26-amd64 (amd64)
+[09:48:01 INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[09:48:02 INFO]: [PluginInitializerManager] Initializing plugins...
+[09:48:04 INFO]: [PluginRemapper] Remapping plugin 'plugins/lifesteal.jar'...
+[09:48:06 INFO]: [PluginRemapper] Done remapping plugin 'plugins/lifesteal.jar' in 1964ms.
+[09:48:08 INFO]: [PluginInitializerManager] Initialized 17 plugins
+[09:48:08 INFO]: [PluginInitializerManager] Paper plugins (1):
+ - EconomyShopGUI (6.9.0)
+[09:48:08 INFO]: [PluginInitializerManager] Bukkit plugins (16):
+ - BungeeGuard (1.4.5), Essentials (2.21.0-dev+121-f7a8f86), FastAsyncWorldEdit (2.12.1-SNAPSHOT-959;7281fa3), Helix (0.0.4), LightAntiCheat (1.2.6), LuckPerms (5.4.145), NoCheatPlus (3.17.1-SNAPSHOT-Updated-b196), SimpleTpa (7.3), Vault (1.7.3-b131), ViaBackwards (5.1.1), ViaRewind (4.0.3), ViaRewind-Legacy-Support (1.5.2-SNAPSHOT), ViaVersion (5.1.1), lifesteal (3.0.1-SNAPSHOT), nLogin (10.4.13), nightcore (2.7.1)
+[09:48:24 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:48:30 INFO]: Loaded 1290 recipes
+[09:48:31 INFO]: Loaded 1399 advancements
+[09:48:32 INFO]: Starting minecraft server version 1.21.1
+[09:48:32 INFO]: Loading properties
+[09:48:32 INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[09:48:35 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:48:35 INFO]: Server Ping Player Sample Count: 12
+[09:48:35 INFO]: Using 4 threads for Netty based IO
+[09:48:38 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[09:48:39 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+[09:48:39 WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[09:48:39 WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[09:48:39 WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[09:48:39 WARN]: [Pufferfish] Debug: Java: 21, test run: true
+[09:48:39 INFO]: Default game type: SURVIVAL
+[09:48:39 INFO]: Generating keypair
+[09:48:39 INFO]: Starting Minecraft server on *:25567
+[09:48:39 INFO]: Using epoll channel type
+[09:48:39 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:48:39 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[09:48:42 INFO]: [SpigotLibraryLoader] [Helix] Loading 2 libraries... please wait
+[09:48:42 INFO]: [SpigotLibraryLoader] [Helix] Loaded library /home/debian/test/main/libraries/info/debatty/java-string-similarity/2.0.0/java-string-similarity-2.0.0.jar
+[09:48:42 INFO]: [SpigotLibraryLoader] [Helix] Loaded library /home/debian/test/main/libraries/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+[09:48:42 INFO]: [SpigotLibraryLoader] [Helix] Loaded library /home/debian/test/main/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[09:48:42 INFO]: [SpigotLibraryLoader] [nightcore] Loading 2 libraries... please wait
+[09:48:43 INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /home/debian/test/main/libraries/com/zaxxer/HikariCP/6.0.0/HikariCP-6.0.0.jar
+[09:48:43 INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /home/debian/test/main/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[09:48:43 INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /home/debian/test/main/libraries/it/unimi/dsi/fastutil-core/8.5.13/fastutil-core-8.5.13.jar
+[09:48:43 INFO]: [nightcore] Server version detected as Purpur 1.21.1.
+[09:48:43 INFO]: [nightcore] [Core Components] ENTITY_ID_GENERATOR: Loaded
+[09:48:43 INFO]: [nightcore] [Core Components] ITEM_NBT_COMPRESSOR: Loaded
+[09:48:46 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[09:48:46 INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[09:48:48 INFO]: [ViaVersion] Loading block connection mappings ...
+[09:48:49 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:48:49 INFO]: [ViaBackwards] Loading translations...
+[09:48:49 INFO]: [ViaBackwards] Registering protocols...
+[09:48:51 INFO]: [ViaRewind] Registering protocols...
+[09:48:52 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.145
+[09:48:53 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[09:48:53 INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:48:53 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[09:48:53 INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+121-f7a8f86
+[09:48:53 INFO]: [Helix] Loading server plugin Helix v0.0.4
+[09:48:53 INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2-SNAPSHOT
+[09:48:53 INFO]: [nightcore] Loading server plugin nightcore v2.7.1
+[09:48:53 INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.3
+[09:48:53 INFO]: [NoCheatPlus] Loading server plugin NoCheatPlus v3.17.1-SNAPSHOT-Updated-b196
+[09:48:53 INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[09:48:54 INFO]: [NoCheatPlus] Logging system initialized.
+[09:48:54 INFO]: [NoCheatPlus] Detected Minecraft version: 1.21.1
+[09:48:54 INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.1-SNAPSHOT-959;7281fa3
+[09:48:58 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@417866d2]
+[09:48:58 INFO]: [nLogin] Loading server plugin nLogin v10.4.13
+[09:49:01 INFO]: [LightAntiCheat] Loading server plugin LightAntiCheat v1.2.6
+[09:49:01 INFO]: [BungeeGuard] Loading server plugin BungeeGuard v1.4.5
+[09:49:01 INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.9.0
+[09:49:01 INFO]: [lifesteal] Loading server plugin lifesteal v3.0.1-SNAPSHOT
+[09:49:01 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:49:01 INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[09:49:03 INFO]: [38;2;85;255;255m       [38;2;0;170;170m __    [0m
+[09:49:03 INFO]: [38;2;85;255;255m  |    [38;2;0;170;170m|__)   [38;2;0;170;0mLuckPerms[0m [38;2;85;255;255mv5.4.145[0m
+[09:49:03 INFO]: [38;2;85;255;255m  |___ [38;2;0;170;170m|      [38;2;85;85;85mRunning on Bukkit - Purpur[0m
+[09:49:03 INFO]: 
+[09:49:03 INFO]: [LuckPerms] Loading configuration...
+[09:49:04 INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:49:06 INFO]: [LuckPerms] Loading internal permission managers...
+[09:49:06 INFO]: [LuckPerms] Performing initial data load...
+[09:49:07 INFO]: [LuckPerms] Successfully enabled. (took 6061ms)
+[09:49:07 INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:49:07 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:49:07 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:49:07 INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:49:07 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[09:49:07 INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[09:49:07 INFO]: [nightcore] Enabling nightcore v2.7.1
+[09:49:08 INFO]: [nightcore] Found permissions provider: LuckPerms
+[09:49:08 INFO]: [nightcore] Found economy provider: EssentialsX Economy
+[09:49:08 INFO]: [nightcore] Found chat provider: LuckPerms
+[09:49:08 INFO]: [nightcore] [DEBUG] Inject post-loading code...
+[09:49:08 INFO]: [nightcore] Plugin loaded in 453 ms!
+[09:49:08 INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.1-SNAPSHOT-959;7281fa3
+[09:49:08 INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[09:49:08 INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[09:49:09 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:49:09 INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:49:10 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[09:49:14 INFO]: [nLogin] Enabling nLogin v10.4.13
+[09:49:16 INFO]: [nLogin] Successful plugin core start (took 1.78s)
+[09:49:16 INFO]: [38;2;85;85;255m          __             _       [0m
+[09:49:16 INFO]: [38;2;85;85;255m  _ __   / /  ___   __ _(_)_ __  [0m
+[09:49:16 INFO]: [38;2;85;85;255m | '_ \ / /  / _ \ / _` | | '_ \ [0m
+[09:49:16 INFO]: [38;2;85;85;255m | | | / /__| (_) | (_| | | | | |[0m
+[09:49:16 INFO]: [38;2;85;85;255m |_| |_\____/\___/ \__, |_|_| |_|[0m
+[09:49:16 INFO]: [38;2;85;85;255m                  |___/            [0m
+[09:49:16 INFO]: [38;2;85;85;255m By: www.nickuc.com - V 10.4.13 DEVELOPMENT[0m
+[09:49:16 INFO]: [38;2;85;85;255m [0m
+[09:49:17 INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[09:49:17 INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[09:49:18 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:49:18 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:49:18 WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:49:18 WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[09:49:18 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:49:18 INFO]: Preparing level "world"
+[09:49:20 INFO]: Preparing start region for dimension minecraft:overworld
+[09:49:24 INFO]: Time elapsed: 3586 ms
+[09:49:24 INFO]: Preparing start region for dimension minecraft:the_nether
+[09:49:25 INFO]: Time elapsed: 838 ms
+[09:49:25 INFO]: Preparing start region for dimension minecraft:the_end
+[09:49:25 INFO]: Time elapsed: 465 ms
+[09:49:25 INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[09:49:25 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[09:49:25 INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[09:49:25 INFO]: [Essentials] Enabling Essentials v2.21.0-dev+121-f7a8f86
+[09:49:27 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:49:27 INFO]: [Essentials] No kits found to migrate.
+[09:49:28 INFO]: [Essentials] Loaded 42679 items from items.json.
+[09:49:28 INFO]: [Essentials] Using locale en_US
+[09:49:28 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:49:30 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:49:30 INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:49:30 INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[09:49:30 INFO]: [Helix] Enabling Helix v0.0.4
+[ [0;31mERROR[0m   ] ------ PSA! ------[0m
+>[09:49:30 ERROR]: [ [0;31mERROR[0m   ] DO NOT USE PAPER![0m
+[ [0;31mERROR[0m   ] DO NOT USE PAPER![0m
+>[ [0;31mERROR[0m   ] The plugin has detected the usage of PaperMC (Or forks), please switch away immediately if you care about your players.[0m
+>[ [0;31mERROR[0m   ] Paper has no regards for the stability, safety and integrity of your server and WILL break things without asking.[0m
+>[ [0;31mERROR[0m   ] Plugins may stop working randomly, may not function or worse, cause game-breaking glitches because of Paper's bad practices.[0m
+>[ [0;31mERROR[0m   ] If you truly do care about your server, you are urged to switch to Spigot.[0m
+>[ [0;31mERROR[0m   ] Helix will try to load, however it is not guaranteed to work.[0m
+>[ [0;36mINFO[0m    ] [0;33mHelix is starting, please wait.[0m
+>[ [0;36mINFO[0m    ] [0;33mChecking 0 plugin repositories...[0m
+>[ [0;36mINFO[0m    ] [0;33mAttempting to load 1 plugin.[0m
+>[ [0;31mERROR[0m   ] Unable to load plugin file 'lifesteal.jar' as it is already loaded (with id 'lifesteal')![0m
+>[09:49:30 ERROR]: [ [0;31mERROR[0m   ] Unable to load plugin file 'lifesteal.jar' as it is already loaded (with id 'lifesteal')![0m
+[09:49:30 INFO]: [helix-builtins] Loading server plugin helix-builtins v0.0.4
+[09:49:30 INFO]: [helix-builtins] Enabling helix-builtins v0.0.4
+[ [0;93mWARNING[0m ] [1;32mDone, loaded 1 plugin and 1 repository. [0;37m2 [0;91mErrors[0m
+>[09:49:30 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2-SNAPSHOT
+[09:49:30 INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
+[09:49:30 INFO]: [1m[38;2;255;255;85m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[0m
+[09:49:30 INFO]: [1m[38;2;255;255;85m[SimpleTpa] Simple Tpa has been enabled on version 7.3[0m
+[09:49:30 INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[09:49:31 INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.17.1-SNAPSHOT-Updated-b196
+[09:49:31 INFO]: [NoCheatPlus] McAccess set to: 1.13-1.21|? / Bukkit-API
+[09:49:31 INFO]: [NoCheatPlus] Applied block patches for multi client protocol support: water_lily, soil, vine, honey_block, shulker_box
+[09:49:31 INFO]: [NoCheatPlus] Update block-info: Block shape patch for multi client protocol support.
+[09:49:32 INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[09:49:32 INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[09:49:32 INFO]: [NoCheatPlus] Force disable FastHeal, FastConsume, PacketFrequency and InstantBow on Minecraft 1.9 and later.
+[09:49:32 INFO]: [NoCheatPlus] Version 3.17.1-SNAPSHOT-Updated-b196 is enabled.
+[09:49:32 INFO]: [LightAntiCheat] Enabling LightAntiCheat v1.2.6
+[09:49:33 INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.9.0
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Using lang-en.yml as language file.
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Completed loading 16 section configs from /sections/
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Completed loading 16 shop configs from /shops/
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Updating Shop settings...
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Successfully hooked into Vault
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Completed loading 1 economy provider(s) for all 14 shop sections.
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Using minecraft version 1.21.1...
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Spawner provider set to AUTO in config
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Automatically searching for compatible spawner provider....
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Failed to automatically find compatible spawner provider, using default...
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Debug mode is enabled.
+[09:49:34 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Loading all items...
+[09:49:35 INFO]: [38;2;85;85;85m[[38;2;0;170;170mEconomyShopGUI[38;2;85;85;85m][0m [38;2;85;85;85m[[38;2;170;170;170mINFO[38;2;85;85;85m][0m: Initialized - Took 2100ms to complete
+[09:49:36 INFO]: [lifesteal] Enabling lifesteal v3.0.1-SNAPSHOT
+[09:49:36 INFO]: [lifesteal] Lifesteal is being moved to the correct directory and will be disabled for a short amount of time.
+[09:49:36 INFO]: [lifesteal] Disabling lifesteal v3.0.1-SNAPSHOT
+[ [0;31mERROR[0m   ] Unable to load plugin file 'lifesteal.jar' as it is already loaded (with id 'lifesteal')![0m[09:49:36 ERROR]: [ [0;31mERROR[0m   ] Unable to load plugin file 'lifesteal.jar' as it is already loaded (with id 'lifesteal')![0m
+
+>[09:49:37 INFO]: [spark] Starting background profiler...
+[09:49:39 INFO]: Done preparing level "world" (21.036s)
+[09:49:39 INFO]: Running delayed init tasks
+[09:49:39 INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[09:49:39 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:49:39 INFO]: [NoCheatPlus] Added hook: ViolationFrequency(NCP) [1.0].
+[09:49:39 INFO]: [Vault] Checking for Updates ... 
+[09:49:39 INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:49:39 INFO]: [Essentials] [38;2;255;170;0mFetching version information...[0m
+[09:49:39 INFO]: [Vault] No new version available
+[09:49:39 INFO]: [NoCheatPlus] Post-enable running...
+[09:49:39 INFO]: [NoCheatPlus] Post-enable finished.
+[09:49:39 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[09:49:39 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[09:49:39 INFO]: UUID of player asdfasdfasdf1234 is 944b1b71-76b5-3162-84a3-3faa03a2472d
+[09:49:39 INFO]: Done (101.448s)! For help, type "help"
+[09:49:40 INFO]: ZIazys (/127.0.0.1:56000) lost connection: Disconnected
+[09:49:40 INFO]: ZIazys (/127.0.0.1:59970) lost connection: Disconnected
+[09:49:40 INFO]: CommanderWolffe (/127.0.0.1:59986) lost connection: Disconnected
+[09:49:40 INFO]: asdfasdfasdf1234 (/127.0.0.1:59972) lost connection: Disconnected
+[09:49:40 INFO]: lbwrt_hakr_jfeaa (/[0:0:0:0:0:0:0:1]:59878) lost connection: Disconnected
+[09:49:40 INFO]: CommanderWolffe (/127.0.0.1:59896) lost connection: Disconnected
+[09:49:40 INFO]: ZIazys (/127.0.0.1:59886) lost connection: Disconnected
+[09:49:40 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[09:49:40 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[09:49:40 INFO]: UUID of player lbwrt_hakr_jfeaa is a5bf65e4-f4de-3bfa-b0fa-9c4c3b8a0056
+[09:49:40 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[09:49:47 INFO]: UUID of player asdfasdfasdf1234 is 944b1b71-76b5-3162-84a3-3faa03a2472d
+[09:49:49 WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[09:49:49 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:49:51 INFO]: asdfasdfasdf1234[/127.0.0.1:50032] logged in with entity id 87 at ([world]309.266511134817, 52.35705030891953, -245.69109281885284)
+[09:49:51 WARN]: Can't keep up! Is the server overloaded? Running 2864ms or 57 ticks behind
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:49:52 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[09:49:52 WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 120.565743ms. Summary: Getting group for asdfasdfasdf1234
+[09:49:53 INFO]: asdfasdfasdf1234 lost connection: Disconnected
+[09:49:54 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[09:49:55 INFO]: CommanderWolffe[/127.0.0.1:50048] logged in with entity id 88 at ([world]133.69999998807907, 63.0, -240.30000001192093)
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:49:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[09:50:13 WARN]: Can't keep up! Is the server overloaded? Running 7334ms or 146 ticks behind
+[09:50:37 INFO]: CommanderWolffe lost connection: Disconnected
+[12:49:51 INFO]: UUID of player asdfasdfasdf1234 is 944b1b71-76b5-3162-84a3-3faa03a2472d
+[12:49:52 INFO]: asdfasdfasdf1234[/[0:0:0:0:0:0:0:1]:33396] logged in with entity id 439 at ([world]309.266511134817, 52.278650307393654, -245.69109281885284)
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:49:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[12:50:38 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[12:52:44 INFO]: asdfasdfasdf1234 issued server command: /give
+[12:52:55 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 cookedmutton64
+[12:52:58 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 cookedmutton 64
+[12:54:33 INFO]: asdfasdfasdf1234 drowned
+[12:54:39 INFO]: asdfasdfasdf1234 issued server command: /back
+[12:55:03 INFO]: asdfasdfasdf1234 issued server command: /tp 314 65 -247
+[12:55:33 INFO]: asdfasdfasdf1234 issued server command: /gamemode creative
+[12:55:50 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 ironsword 2
+[12:55:57 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 ironpickaxe 2
+[12:56:14 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 cobblestone 64
+[12:56:29 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 iron 31
+[12:56:33 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 irooren 31
+[12:56:39 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 ironore 31
+[12:57:05 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 furnace 2
+[12:57:16 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 woddenaxe 2
+[12:57:20 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 woodenaxe 2
+[12:57:47 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[12:57:53 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[12:58:07 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 coal 57
+[12:59:07 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[12:59:18 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[13:02:21 WARN]: asdfasdfasdf1234 moved too quickly! -1.0161598536958536,-0.5375702470642523,-28.100934845899815
+[13:02:36 INFO]: asdfasdfasdf1234 issued server command: /kill @e
+[13:04:48 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[13:06:21 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 cookedmutton 57
+[13:06:37 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 boat 5
+[13:06:56 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 wood 5
+[13:07:17 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 oakwoodplanks 57
+[13:07:25 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 oakwoodplank 57
+[13:09:32 INFO]: asdfasdfasdf1234 issued server command: /tp 233 65 -706
+[13:10:47 INFO]: asdfasdfasdf1234 issued server command: /tp 233 67 -712
+[13:13:47 INFO]: asdfasdfasdf1234 has made the advancement [38;2;85;255;85m[Suit Up][0m
+[13:17:04 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[13:23:33 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[13:23:55 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[13:24:10 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[13:24:21 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[13:25:35 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 saddle 2
+[13:26:24 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 apple 20
+[13:26:29 INFO]: asdfasdfasdf1234 issued server command: /gamemode survival
+[13:26:39 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 saddle 2
+[13:27:21 INFO]: asdfasdfasdf1234 has made the advancement [38;2;85;255;85m[Best Friends Forever][0m
+[13:30:17 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 saddle 5
+[13:30:22 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 apple 64
+[13:31:11 INFO]: asdfasdfasdf1234 issued server command: /gamemode 1
+[13:32:15 INFO]: asdfasdfasdf1234 issued server command: /give asdfasdfasdf1234 saddle 5
+[13:32:26 INFO]: asdfasdfasdf1234 lost connection: Disconnected
+[13:32:38 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[13:32:38 INFO]: ZIazys[/[0:0:0:0:0:0:0:1]:55716] logged in with entity id 9248 at ([world]-28.54362791042649, 60.0, 22.465304029986658)
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:32:38 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:32:49 INFO]: ZIazys issued server command: /shop
+[13:33:02 INFO]: ZIazys issued server command: /shop
+[13:33:31 INFO]: ZIazys issued server command: /sop
+[13:33:33 INFO]: ZIazys issued server command: /shop
+[13:34:55 INFO]: ZIazys issued server command: /shop
+[13:35:06 INFO]: ZIazys issued server command: /shop
+[13:35:12 INFO]: ZIazys issued server command: /shop
+[13:35:29 INFO]: ZIazys issued server command: /shop
+[13:35:37 INFO]: ZIazys issued server command: /shop
+[13:35:46 INFO]: ZIazys issued server command: /shop
+[13:35:53 INFO]: ZIazys issued server command: /shop
+[13:36:00 INFO]: ZIazys issued server command: /shop
+[13:36:05 INFO]: ZIazys issued server command: /shop
+[13:36:56 INFO]: ZIazys issued server command: /shop
+[13:37:09 INFO]: ZIazys issued server command: /shop
+[13:37:25 INFO]: ZIazys issued server command: /shop
+[13:37:35 INFO]: ZIazys issued server command: /shop
+[13:37:47 INFO]: ZIazys issued server command: /shop
+[13:37:54 INFO]: ZIazys issued server command: /shop
+[13:38:19 INFO]: ZIazys issued server command: /shop
+[13:39:14 INFO]: ZIazys lost connection: Disconnected
+[13:39:59 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[13:39:59 INFO]: ZIazys[/[0:0:0:0:0:0:0:1]:53420] logged in with entity id 9998 at ([world]-28.670249770951937, 60.0, 22.30000001192093)
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:40:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:40:16 INFO]: ZIazys issued server command: /shop
+[13:40:27 INFO]: ZIazys issued server command: /shop
+[13:40:32 INFO]: ZIazys issued server command: /shop
+[13:41:00 INFO]: ZIazys issued server command: /shop
+[13:41:47 INFO]: ZIazys issued server command: /shop
+[13:43:41 INFO]: ZIazys issued server command: /shop
+[13:43:56 INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[13:43:56 INFO]: Ath818[/127.0.0.1:49780] logged in with entity id 10394 at ([world]38.09633370124279, 65.0, 8.622551444528721)
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:43:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:44:07 INFO]: Ath818 lost connection: Disconnected
+[13:45:56 INFO]: UUID of player ZIazys2 is c990da03-a1a8-36cf-8170-1bd77af6e4e3
+[13:45:56 INFO]: ZIazys2[/[0:0:0:0:0:0:0:1]:37692] logged in with entity id 10577 at ([world]2.5, 65.0, 8.5)
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:45:56 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:46:35 INFO]: ZIazys lost connection: Timed out
+[13:46:40 INFO]: ZIazys2 lost connection: Disconnected
+[13:47:08 INFO]: UUID of player ZIazys is f19aae05-b88f-3479-9527-6c54c2c38a78
+[13:47:08 INFO]: ZIazys[/[0:0:0:0:0:0:0:1]:34338] logged in with entity id 10644 at ([world]-28.670249770951937, 60.0, 22.30000001192093)
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:47:08 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:47:20 INFO]: ZIazys issued server command: /shop
+[13:47:51 INFO]: UUID of player ZIazys2 is c990da03-a1a8-36cf-8170-1bd77af6e4e3
+[13:47:51 INFO]: ZIazys2[/[0:0:0:0:0:0:0:1]:58314] logged in with entity id 10760 at ([world]2.5, 65.0, 8.5)
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:47:51 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[13:48:35 INFO]: ZIazys2 lost connection: Disconnected
+[13:48:45 INFO]: ZIazys issued server command: /
+[13:48:51 INFO]: ZIazys issued server command: /shop
+[13:49:33 INFO]: ZIazys issued server command: /shop
+[13:49:50 INFO]: ZIazys issued server command: /shop
+[13:50:11 INFO]: ZIazys issued server command: /shop
+[13:52:47 INFO]: ZIazys issued server command: /shop
+[13:53:19 INFO]: ZIazys issued server command: /shop
+[13:54:29 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL207[38;2;170;170;170m)[0m
+[13:54:29 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL410[38;2;170;170;170m)[0m
+[13:54:34 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL1044[38;2;170;170;170m)[0m
+[13:54:46 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL692[38;2;170;170;170m)[0m
+[13:56:05 INFO]: ZIazys issued server command: /shop
+[13:56:48 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mZIazys sold 3 x Dirt(Blocks.page3.items.109) for $2.25 with the sell screen.
+[13:57:01 INFO]: ZIazys issued server command: /shop
+[14:02:03 INFO]: UUID of player ZIazys2 is c990da03-a1a8-36cf-8170-1bd77af6e4e3
+[14:02:03 INFO]: ZIazys2[/[0:0:0:0:0:0:0:1]:48784] logged in with entity id 11745 at ([world]2.5, 65.0, 8.5)
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[14:02:03 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[14:02:15 INFO]: ZIazys2 lost connection: Disconnected
+[14:02:29 INFO]: ZIazys issued server command: /shop
+[14:02:34 INFO]: ZIazys issued server command: /shop
+[14:03:28 INFO]: ZIazys issued server command: /shop
+[14:03:42 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL210[38;2;170;170;170m)[0m
+[14:03:43 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL419[38;2;170;170;170m)[0m
+[14:03:48 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL1351[38;2;170;170;170m)[0m
+[14:03:53 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL2100[38;2;170;170;170m)[0m
+[14:04:02 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL913[38;2;170;170;170m)[0m
+[14:04:07 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL681[38;2;170;170;170m)[0m
+[14:04:13 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL443[38;2;170;170;170m)[0m
+[14:04:20 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mZIazys[38;2;170;170;170m failed [38;2;255;85;85mFastClick[38;2;170;170;170m: tried to move items in their inventory too quickly (Tags: [38;2;255;170;0mclickspeed[38;2;170;170;170m) ([38;2;255;85;85mVL218[38;2;170;170;170m)[0m
+[14:05:01 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m ZIazys was flagged for FlightC (1/40)[0m
+[14:05:01 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m ZIazys was flagged for FlightC (2/40)[0m
+[14:05:28 INFO]: ZIazys issued server command: /shop
+[14:05:33 INFO]: ZIazys issued server command: /shop
+[14:05:46 INFO]: ZIazys issued server command: /shop
+[14:06:07 INFO]: ZIazys issued server command: /
+[14:06:15 INFO]: ZIazys was blown up by Creeper
+[14:06:22 INFO]: ZIazys issued server command: /shop
+[14:06:44 INFO]: ZIazys issued server command: /shop
+[14:07:22 INFO]: ZIazys issued server command: /shop
+[14:07:54 INFO]: ZIazys issued server command: /shop
+[14:10:33 INFO]: ZIazys issued server command: /
+[14:10:36 INFO]: ZIazys issued server command: /shop
+[14:11:05 INFO]: ZIazys issued server command: /shop
+[14:11:29 INFO]: ZIazys issued server command: /shop
+[14:11:41 INFO]: ZIazys issued server command: /shop
+[14:11:50 INFO]: ZIazys issued server command: /shop
+[14:12:10 INFO]: ZIazys issued server command: /shop
+[14:23:43 INFO]: ZIazys lost connection: Disconnected
+[15:49:49 INFO]: [Vault] Checking for Updates ... 
+[15:49:49 INFO]: [Vault] No new version available
+[16:46:02 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[16:46:02 INFO]: CommanderWolffe[/127.0.0.1:56366] logged in with entity id 13712 at ([world]148.79389894254032, 67.0, -269.54882993879664)
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:46:02 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (1/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (2/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (3/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (4/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (5/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (6/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (7/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (8/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (9/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (10/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (11/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (12/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (13/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (14/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (15/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (16/40)[0m
+[16:49:50 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightC (17/40)[0m
+[16:52:24 INFO]: CommanderWolffe lost connection: Disconnected
+[16:52:30 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[16:52:30 INFO]: CommanderWolffe[/127.0.0.1:45076] logged in with entity id 14707 at ([world]272.86623739512964, 45.0, -281.7825657900034)
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:52:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:52:35 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[16:52:36 INFO]: Yuvrajxd[/127.0.0.1:45080] logged in with entity id 14884 at ([world]306.99175590557894, 59.64024293428232, -231.44023592055373)
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:52:36 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:53:57 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvrajxd was flagged for FlightC (1/40)[0m
+[16:53:57 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvrajxd was flagged for FlightC (2/40)[0m
+[16:53:57 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvrajxd was flagged for FlightC (3/40)[0m
+[16:54:11 INFO]: Yuvrajxd lost connection: Disconnected
+[16:54:47 INFO]: CommanderWolffe lost connection: Disconnected
+[16:54:54 INFO]: UUID of player CommanderWolffe is a384203b-09cc-3e45-a43b-95537c8a0ae8
+[16:54:54 INFO]: CommanderWolffe[/127.0.0.1:34052] logged in with entity id 15239 at ([world]263.65657839026005, 38.0, -277.5367843509225)
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:54:54 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:55:15 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[16:55:15 INFO]: Yuvrajxd[/127.0.0.1:48584] logged in with entity id 15502 at ([world]305.83059961262245, 82.0, -256.6093676326002)
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:55:16 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:55:32 INFO]: CommanderWolffe was blown up by Creeper
+[16:55:37 INFO]: CommanderWolffe issued server command: /back
+[16:56:07 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightA (1/40)[0m
+[16:56:07 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightA (2/40)[0m
+[16:56:07 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m CommanderWolffe was flagged for FlightA (3/40)[0m
+[16:56:13 INFO]: Yuvrajxd was slain by Spider
+[16:56:19 INFO]: Yuvrajxd lost connection: Disconnected
+[16:56:36 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[16:56:36 INFO]: Yuvrajxd[/127.0.0.1:55914] logged in with entity id 15794 at ([world]7.5, 70.0, 9.5)
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:56:37 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:56:47 INFO]: Yuvrajxd issued server command: /back
+[16:56:59 WARN]: Failed to update secure chat state for Yuvrajxd: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[17:02:12 INFO]: Yuvrajxd issued server command: /sellall hand
+[17:02:12 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvrajxd sold 64 x Birch Log(Blocks.page5.items.199) for $48 with the sell all command.
+[17:02:18 INFO]: Yuvrajxd issued server command: /sellall hand
+[17:02:18 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvrajxd sold 8 x Birch Log(Blocks.page5.items.199) for $6 with the sell all command.
+[17:02:59 INFO]: Yuvrajxd issued server command: /tpr
+[17:03:00 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:08:26 INFO]: CommanderWolffe has made the advancement [38;2;85;255;85m[Acquire Hardware][0m
+[17:08:39 INFO]: CommanderWolffe lost connection: Disconnected
+[17:09:23 INFO]: Yuvrajxd lost connection: Disconnected
+[17:09:30 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:09:30 INFO]: Yuvrajxd[/127.0.0.1:50646] logged in with entity id 18792 at ([world]15.923626496317254, 0.07180644570873249, -67.35552060761705)
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:09:30 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:09:57 WARN]: Failed to update secure chat state for Yuvrajxd: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[17:09:59 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL2275[38;2;170;170;170m)[0m
+[17:09:59 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:09:59 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2275)
+[17:09:59 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:10:06 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:10:06 INFO]: Yuvrajxd[/127.0.0.1:59362] logged in with entity id 18881 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:10:06 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:10:25 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL2475[38;2;170;170;170m)[0m
+[17:10:25 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:10:25 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2475)
+[17:10:25 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:11:07 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:11:07 INFO]: Yuvrajxd[/127.0.0.1:42028] logged in with entity id 18971 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:11:07 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:11:26 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL2675[38;2;170;170;170m)[0m
+[17:11:26 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:11:26 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2675)
+[17:11:26 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:12:29 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:12:29 INFO]: Yuvrajxd[/127.0.0.1:47610] logged in with entity id 19051 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:12:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:12:48 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL2875[38;2;170;170;170m)[0m
+[17:12:48 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:12:48 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL2875)
+[17:12:48 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:12:57 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:12:57 INFO]: Yuvrajxd[/127.0.0.1:42824] logged in with entity id 19113 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:12:57 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:13:16 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL3075[38;2;170;170;170m)[0m
+[17:13:16 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:13:17 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3075)
+[17:13:17 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:13:54 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:13:55 INFO]: Yuvrajxd[/127.0.0.1:42022] logged in with entity id 19206 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:13:55 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:14:02 INFO]: Yuvrajxd issued server command: /balance
+[17:14:02 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:04 INFO]: Yuvrajxd issued server command: /balance
+[17:14:04 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:09 INFO]: Yuvrajxd issued server command: /pay Yuvraj 50
+[17:14:09 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:11 INFO]: Yuvrajxd issued server command: /pay Yuvraj 30
+[17:14:11 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:14 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL3275[38;2;170;170;170m)[0m
+[17:14:14 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:14:14 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3275)
+[17:14:14 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:14:25 INFO]: UUID of player Yuvrajxd is f435e6d7-a032-3164-a81a-10125e1f4cb2
+[17:14:25 INFO]: Yuvrajxd[/127.0.0.1:48840] logged in with entity id 19264 at ([world]15.498025255244613, -0.6966697567042562, -67.30000001192093)
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:14:25 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:14:30 INFO]: Yuvrajxd issued server command: /give Yuvraj 50
+[17:14:30 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:34 INFO]: Yuvrajxd issued server command: /give money Yuvraj 50
+[17:14:34 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:38 INFO]: Yuvrajxd issued server command: /give money Yuvraj 50
+[17:14:38 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:43 INFO]: Yuvrajxd issued server command: /give moneyy Yuvraj 30
+[17:14:43 INFO]: [Essentials] [38;2;255;85;85mYuvrajxd [38;2;170;0;0mwas denied access to command.[0m
+[17:14:44 INFO]: [1m[38;2;170;170;170m[[0m[38;2;255;85;85mNC+[1m[38;2;170;170;170m][0m[38;2;170;170;170m [38;2;255;85;85mYuvrajxd[38;2;170;170;170m failed [38;2;255;85;85mSurvivalFly[38;2;170;170;170m: tried to perform an illegal move (Subchecks: [38;2;255;170;0mhover[38;2;170;170;170m) ([38;2;255;85;85mVL3475[38;2;170;170;170m)[0m
+[17:14:44 INFO]: Yuvrajxd lost connection: (!) Moved unexpectedly.
+[17:14:45 INFO]: [NoCheatPlus] Yuvrajxd failed SurvivalFly: tried to perform an illegal move (Subchecks: hover) (VL3475)
+[17:14:45 INFO]: [NoCheatPlus] (CONSOLE) Kicked Yuvrajxd : §c§l(!)§7 Moved unexpectedly.
+[17:14:59 INFO]: UUID of player Yuvraj is fb8b7d86-d16a-36ce-b8bd-f6e68afde2ba
+[17:15:00 INFO]: Yuvraj[/127.0.0.1:40352] logged in with entity id 19320 at ([world]8.5, 65.0, 4.5)
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:15:00 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:15:37 INFO]: Yuvraj was slain by Zombie
+[17:15:37 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for VelocityA (1/12)[0m
+[17:15:53 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for VelocityA (2/12)[0m
+[17:15:55 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for VelocityA (3/12)[0m
+[17:15:58 INFO]: Yuvraj was shot by Skeleton
+[17:16:22 INFO]: Yuvraj was slain by Spider
+[17:17:05 INFO]: Yuvraj was shot by Skeleton
+[17:17:57 INFO]: Yuvraj has made the advancement [38;2;85;255;85m[Stone Age][0m
+[17:21:04 INFO]: Yuvraj has made the advancement [38;2;85;255;85m[Getting an Upgrade][0m
+[17:22:51 INFO]: Yuvraj issued server command: /sellall hand
+[17:22:53 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (1/40)[0m
+[17:22:53 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (2/40)[0m
+[17:22:53 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (3/40)[0m
+[17:23:00 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (4/40)[0m
+[17:23:04 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (5/40)[0m
+[17:23:05 INFO]: [38;2;85;85;85m([38;2;255;85;85mLight[38;2;85;85;85m)[38;2;255;255;255m Yuvraj was flagged for FlightC (6/40)[0m
+[17:23:17 INFO]: Yuvraj lost connection: Disconnected
+[17:31:26 INFO]: UUID of player Yuvraj is fb8b7d86-d16a-36ce-b8bd-f6e68afde2ba
+[17:31:26 INFO]: Yuvraj[/127.0.0.1:60418] logged in with entity id 20577 at ([world]-22.201450039752583, 72.0, -154.21560525497173)
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[17:31:26 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[17:32:06 INFO]: Yuvraj has made the advancement [38;2;85;255;85m[Monster Hunter][0m
+[17:32:15 INFO]: Yuvraj was slain by Zombie
+[17:32:21 INFO]: Yuvraj issued server command: /back
+[17:34:51 INFO]: Yuvraj has made the advancement [38;2;85;255;85m[Sweet Dreams][0m
+[17:35:04 INFO]: Yuvraj issued server command: /sellall hand
+[17:35:04 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 2 x Red Mushroom(Farming.page1.items.24) for $1 with the sell all command.
+[17:35:08 INFO]: Yuvraj issued server command: /sellall hand
+[17:35:12 INFO]: Yuvraj issued server command: /sellall hand
+[17:35:52 INFO]: Yuvraj issued server command: /shop
+[17:44:26 INFO]: Yuvraj issued server command: /sellall hadn
+[17:44:29 INFO]: Yuvraj issued server command: /sellall hand
+[17:44:29 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 1 x Mossy Cobblestone(Blocks.page1.items.54) for $2.02 with the sell all command.
+[17:44:58 INFO]: Yuvraj issued server command: /sell cobblestone 1
+[17:44:58 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 1 x Cobblestone(Blocks.page1.items.51) for $0.17 with the sell all command.
+[17:48:21 INFO]: Yuvraj issued server command: /shop
+[17:50:50 INFO]: Yuvraj issued server command: /sellall hand
+[17:50:50 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 64 x Mossy Cobblestone(Blocks.page1.items.54) for $129.28 with the sell all command.
+[17:50:55 INFO]: Yuvraj issued server command: /sellall hand
+[17:50:55 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 58 x Mossy Cobblestone(Blocks.page1.items.54) for $117.16 with the sell all command.
+[17:50:59 INFO]: Yuvraj issued server command: /shop
+[17:52:45 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj bought 1 x Weeping Vines(Decoration.page3.items.110) for $6 with the buy screen.
+[17:58:38 INFO]: Yuvraj issued server command: /sellall hand
+[17:58:38 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 64 x Mossy Cobblestone(Blocks.page1.items.54) for $129.28 with the sell all command.
+[17:58:44 INFO]: Yuvraj issued server command: /sellall hand
+[17:58:44 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 36 x Mossy Cobblestone(Blocks.page1.items.54) for $72.72 with the sell all command.
+[17:58:48 INFO]: Yuvraj issued server command: /shop
+[17:59:10 INFO]: Yuvraj issued server command: /sethome mega-taiga
+[17:59:10 INFO]: [Essentials] [38;2;255;85;85mYuvraj [38;2;170;0;0mwas denied access to command.[0m
+[17:59:13 INFO]: Yuvraj issued server command: /sethome
+[17:59:13 INFO]: [Essentials] [38;2;255;85;85mYuvraj [38;2;170;0;0mwas denied access to command.[0m
+[17:59:15 INFO]: Yuvraj issued server command: /homes
+[17:59:15 INFO]: [Essentials] [38;2;255;85;85mYuvraj [38;2;170;0;0mwas denied access to command.[0m
+[17:59:16 INFO]: Yuvraj issued server command: /
+[18:01:53 INFO]: Yuvraj issued server command: /shop
+[18:04:25 INFO]: Yuvraj issued server command: /sellall hand
+[18:04:25 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 43 x Mossy Cobblestone(Blocks.page1.items.54) for $86.86 with the sell all command.
+[18:05:19 INFO]: Yuvraj issued server command: /sellall hand
+[18:05:19 INFO]: [1m[38;2;85;85;255mShop [38;2;85;85;85m>> [0mYuvraj sold 29 x Mossy Cobblestone(Blocks.page1.items.54) for $58.58 with the sell all command.
+[18:05:23 INFO]: Yuvraj issued server command: /shop
+[18:07:34 INFO]: Yuvraj lost connection: Disconnected
+[19:59:28 INFO]: UUID of player Ath818 is 8ac22ffc-0a76-3497-b5ef-e7bac171b9b2
+[19:59:28 INFO]: Ath818[/[0:0:0:0:0:0:0:1]:50398] logged in with entity id 26323 at ([world]38.09633370124279, 65.0, 8.622551444528721)
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[19:59:29 WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[19:59:44 INFO]: Ath818 issued server command: /help
+[19:59:52 INFO]: Ath818 issued server command: /help login
+[19:59:59 INFO]: Ath818 issued server command: /plugins
+[20:00:26 INFO]: Ath818 issued server command: /bal
+[20:00:26 INFO]: [Essentials] [38;2;255;85;85mAth818 [38;2;170;0;0mwas denied access to command.[0m
+[20:00:27 INFO]: Ath818 issued server command: /lifesteal
+[20:00:30 INFO]: Ath818 issued server command: /help lifesteal
+[20:00:32 INFO]: Ath818 issued server command: /economy
+[20:00:32 INFO]: [Essentials] [38;2;255;85;85mAth818 [38;2;170;0;0mwas denied access to command.[0m

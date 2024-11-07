@@ -1,0 +1,3 @@
+# List of plugin repositories
+repositories:
+    central: central.repository.refined.host:25546

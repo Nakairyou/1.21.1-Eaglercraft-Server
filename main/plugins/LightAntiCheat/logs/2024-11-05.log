@@ -1,0 +1,4 @@
+(2024-11-05 21:21:51) rzhang6 was flagged [Check: FlightA (Acceleration)] [Violations: 1/40] [TPS: 20.00] [Ping: 180ms (high stability)] [Client: Eagler] [Location: world -9.81 63.66 -12.19]
+(2024-11-05 21:22:23) rzhang6 was flagged [Check: FlightC (Vector)] [Violations: 4/40] [TPS: 20.00] [Ping: 304ms (high stability)] [Client: Eagler] [Location: world 4.01 66.17 -95.58]
+(2024-11-05 21:22:36) rzhang6 was flagged [Check: KillAuraB (HitBox)] [Violations: 1/8] [TPS: 20.00] [Ping: 304ms (high stability)] [Client: Eagler] [Location: world -7.97 64.00 -83.70]
+(2024-11-05 21:22:52) rzhang6 was flagged [Check: KillAuraB (HitBox)] [Violations: 3/8] [TPS: 20.00] [Ping: 350ms (high stability)] [Client: Eagler] [Location: world -11.27 64.00 -95.01]
