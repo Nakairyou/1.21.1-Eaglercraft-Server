@@ -2,7 +2,7 @@
 These are the files for a 1.21.1 Eaglercraft Server
 
 # Usage
-Go click the green code button, workspaces, then create new
+Go click the green code button, codespaces, then create new
 Open two terminals (use control-shift-p then type terminal)
 In one terminal:
 ```bash
