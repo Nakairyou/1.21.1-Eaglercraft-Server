@@ -32,4 +32,4 @@ java --version
 
 # More Side Notes
 This server has a shop plugin already installed, along with some other plugins. Some are neccesary, like nlogin and via* but If you don't want it, you can remove things like skript and protocolib. 
-Also, It can be used as a real minecraft server that people can connect to. This repository will not be updated. 
+Also, It can be used as a real minecraft server that people can connect to. This repository will mostly not be updated, and I might add a resource pack later in the server.properties that might not work later. 
