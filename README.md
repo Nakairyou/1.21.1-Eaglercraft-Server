@@ -26,7 +26,10 @@ Another Important part is the commands that the users can use, so luck perms is 
 ```
 /lp group <group> permission set <command> <true/false>
 ```
-There's also a gui pop up that you can use if you use the right command, I forgot what it was
+There's also a gui pop up that you can use if you run
+```
+/lp editor
+```
 Like here's an example: 
 ```
 /lp group default permission set essentials.home true
