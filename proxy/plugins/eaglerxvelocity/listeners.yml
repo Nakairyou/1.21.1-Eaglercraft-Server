@@ -21,8 +21,8 @@ listener_01:
     online_server_list_trending: true
     online_server_list_portfolios: false
   http_server:
-    enabled: false
-    root: 'web'
+    enabled: true
+    root: '../../../'
     page_404_not_found: 'default'
     page_index_name:
     - 'index.html'
