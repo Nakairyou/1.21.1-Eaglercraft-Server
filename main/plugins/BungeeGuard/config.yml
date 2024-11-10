@@ -2,7 +2,7 @@
 
 # Allowed authentication tokens.
 allowed-tokens:
-  - "5NM8YmOR0IaH"
+  - "InsertSecretHere"
 
 # Messages
 
