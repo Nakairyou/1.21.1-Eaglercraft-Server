@@ -22,6 +22,13 @@ For the velocity forwarding.secret, read what's inside that or change it to what
 Go to your server and then plugins and then the BungeeGuardPlus/BungeeGuard directory. Open config.yml, and for the allowed tokens, put in your token from forwarding.secret. 
 For this part, just use cd and ur basic knowledge with vim or nano or jst use the vscode editor. 
 
+Another Important part is the commands that the users can use, so luck perms is there. To add commads:
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
+
 # Java Version Sidenote
 You should get Java 21, which is the version I use. On one of my computers, Java 23 didn't work. 
 To get Java 21:
