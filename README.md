@@ -15,7 +15,7 @@ cd proxy && java -jar velocity.jar
 Then go to the ports section and forward port 8081, right click and make it public. 
 To use the server, go to eaglercraft, direct connect or wtv u want.
 Paste in the given link, but replace https:// with wss://
-And you can connect!
+Then ur connected as long as the server is on. 
 
 # Setting Edits
 For the velocity forwarding.secret, read what's inside that or change it to what you want, and copy it to your clipboard. 
