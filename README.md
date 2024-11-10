@@ -17,6 +17,11 @@ To use the server, go to eaglercraft, direct connect or wtv u want.
 Paste in the given link, but replace https:// with wss://
 And you can connect!
 
+# Setting Edits
+For the velocity forwarding.secret, read what's inside that or change it to what you want, and copy it to your clipboard. 
+Go to your server and then plugins and then the BungeeGuardPlus/BungeeGuard directory. Open config.yml, and for the allowed tokens, put in your token from forwarding.secret. 
+For this part, just use cd and ur basic knowledge with vim or nano or jst use the vscode editor. 
+
 # Java Version Sidenote
 You should get Java 21, which is the version I use. On one of my computers, Java 23 didn't work. 
 To get Java 21:
