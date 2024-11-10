@@ -24,9 +24,12 @@ For this part, just use cd and ur basic knowledge with vim or nano or jst use th
 
 Another Important part is the commands that the users can use, so luck perms is there. To add commads:
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+/lp group <group> permission set <command> <true/false>
+```
+There's also a gui pop up that you can use if you use the right command, I forgot what it was
+Like here's an example: 
+```
+/lp group default permission set essentials.home true
 ```
 
 # Java Version Sidenote
