@@ -23,6 +23,7 @@ Go to your server and then plugins and then the BungeeGuardPlus/BungeeGuard dire
 For this part, just use cd and ur basic knowledge with vim or nano or jst use the vscode editor. 
 Also, I added resent client into there, along with the default web client. You can edit it yourself, but I just set it as resent client if you directly open the link wtihout wss.
 Or use something like this: [resent](https://resent4-0.vercel.app)
+
 Another Important part is the commands that the users can use, so luck perms is there. To add commads:
 ```
 /lp group <group> permission set <command> <true/false>
