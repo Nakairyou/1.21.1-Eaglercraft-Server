@@ -38,7 +38,7 @@ Like here's an example:
 ```
 
 # Java Version Sidenote
-You should get Java 21, which is the version I use. On one of my computers, Java 23 didn't work. 
+You should get Java 21, which is the version I use (You might have to recompile and reinstall the server if it doesn't work, just delete some of the files, remove and reinstall the purpur file, etc). On one of my computers, Java 23 didn't work. On gitpod classic, Java 21 doesn't work though. Not sure what the issue is yet, though maybe a buffer overflow error? It's a siegsev so idk
 To get Java 21:
 ```bash
 wget https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-x64_bin.deb
