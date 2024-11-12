@@ -43,6 +43,7 @@ To get Java 21:
 ```bash
 wget https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-x64_bin.deb
 sudo dpkg -i jdk-21*.deb
+rm -f jdk-21*.deb
 ```
 And to ensure that it worked, just update it if it isn't java 21:
 ```bash
