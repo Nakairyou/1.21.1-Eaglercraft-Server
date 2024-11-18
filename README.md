@@ -45,6 +45,15 @@ wget https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-x64_bin.deb
 sudo dpkg -i jdk-21*.deb
 rm -f jdk-21*.deb
 ```
+Or if that doesn't work, a more messy way is
+```bash
+wget https://www.dropbox.com/scl/fi/euvjd4nk4cq32higujqj2/jdk-21.0.4_linux-x64_bin.deb?rlkey=k85wrx3mytdc4e3789v32brc0&st=6jcgvxgd&dl=1
+mv "*jdk-21.0.4_*" java21.deb
+rm wget-log
+sudo dpkg -i java21.deb
+rm -f java21.deb
+```
+
 And to ensure that it worked, just update it if it isn't java 21:
 ```bash
 sudo update-alternatives --config java
